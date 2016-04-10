@@ -88,7 +88,7 @@ class Main extends PluginBase implements Listener{
                 ),
             );
         }
-        $this->prefix = "< GCS - NETWORK > ";
+        $this->prefix = "< Aerial - NETWORK > ";
     }
 
     public function onDisable()
