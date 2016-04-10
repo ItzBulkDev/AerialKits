@@ -7,6 +7,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandExecuter;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
+use pocketmine\utils\TextFormat
 use pocketmine\item\Item;
 use pocketmine\utils\Config;
 use pocketmine\event\Listener;
