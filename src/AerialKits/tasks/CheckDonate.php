@@ -1,5 +1,5 @@
 <?php
-namespace epicmc\bridgeauth\task;
+namespace AerialKits\tasks;
 
 use AerialKits\AerialKits;
 use pocketmine\scheduler\AsyncTask;
