@@ -14,7 +14,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerDeathEvent;
 use pocketmine\Server;
 
-class Main extends PluginBase implements Listener{
+class AerialKits extends PluginBase implements Listener{
 
     public function onEnable(){
         $this->getLogger()->info("AerialKits enabled!");
