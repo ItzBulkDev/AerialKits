@@ -15,7 +15,8 @@ use pocketmine\event\player\PlayerDeathEvent;
 use pocketmine\Server;
 
 class AerialKits extends PluginBase implements Listener{
-
+    //ENTER WebPage Ex: http://devinepe.com/check.php
+const DONATION_CHECK_URL = "http://";
     public function onEnable(){
         $this->getLogger()->info("AerialKits enabled!");
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
