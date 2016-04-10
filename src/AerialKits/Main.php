@@ -107,4 +107,5 @@ class Main extends PluginBase implements Listener{
             if(isset($args[0])){
                 switch(strtolower($args[0])){
                     case "list":
+                        $sender -> sendPopup("==+==You have selected a kit!==+==")
 }
