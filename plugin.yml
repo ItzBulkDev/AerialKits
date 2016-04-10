@@ -4,5 +4,5 @@ version: "1.0_BETA"
 main: AerialPHP\Main
 author: Syntaxious and BoyIsDino
 commands:
-  :
-   description:
+  akit:
+   description: Shows multiple choices of kits. use /akit "kitname" to use kit.
