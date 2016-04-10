@@ -1,4 +1,3 @@
-
 <?php
 
 namespace AerialKits;
@@ -91,5 +90,20 @@ class Main extends PluginBase implements Listener{
         }
         $this->prefix = "< GCS - NETWORK > ";
     }
+
+    public function onDisable()
+    {
+        $config = new Config($this->getDataFolder() . "buyers.yml", Config::YAML, array());
+        $config->setAll($this->donators);
+        $config->save();
+        $kits = new Config($this->getDataFolder() . "kits.yml", Config::YAML, array());
+        $kits->setAll($this->kits);
+        $kits->save();
     }
+
+    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+        if(strtolower($cmd->getName()) === "akit"){
+            if(isset($args[0])){
+                switch(strtolower($args[0])){
+                    case "list":
 }
