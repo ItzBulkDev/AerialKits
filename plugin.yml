@@ -1,7 +1,7 @@
 name: AerialKits
 api: [1.13.0]
 version: "1.0_BETA"
-main: AerialPHP\AerialKits
+main: AerialKits\AerialKits
 author: Syntaxious and BoyIsDino
 commands:
   akit:
